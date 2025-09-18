@@ -5,6 +5,7 @@ import creatorsSlice from "../slices/creatorsSlice";
 import categorySlice from "../slices/categorySlice";
 import discoverSlice from "../slices/discoverSlice";
 import workSlice from "../slices/workSlice";
+import artistSlice from "../slices/artistSlice";
 
 export const store = configureStore({
   reducer: {
@@ -14,6 +15,7 @@ export const store = configureStore({
     categories: categorySlice,
     discover: discoverSlice,
     work: workSlice,
+    artist: artistSlice,
   },
 });
 

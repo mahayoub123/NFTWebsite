@@ -1,5 +1,6 @@
 import Categories from "../components/Categories/Categories";
 import DiscoverCards from "../components/DiscoverCards/DiscoverCards";
+import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/NavBar/NavBar";
 import TopCreators from "../components/TopCreators/TopCreators";
@@ -18,6 +19,7 @@ const HomePage = () => {
       <DiscoverCards />
       <WorkCards />
       <WeeklyDigest />
+      <Footer />
     </div>
   );
 };
