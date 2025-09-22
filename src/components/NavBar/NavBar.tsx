@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="hidden md:flex items-center space-x-6 text-gray-300">
-        <a href="#" className="hover:text-white">
+        <a href="market" className="hover:text-white">
           Marketplace
         </a>
         <a href="#" className="hover:text-white">
@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
         <a href="artist" className="hover:text-white">
           Artist Page
         </a>
-        <a href="#" className="hover:text-white">
+        <a href="nft" className="hover:text-white">
           NFT Page
         </a>
       </div>

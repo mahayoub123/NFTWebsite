@@ -20,8 +20,12 @@ const ArtistCards: React.FC = () => {
                   alt="img"
                   className="w-full h-64 object-cover rounded-2xl"
                 />
-                <h5 className="mt-3 text-lg font-semibold">{item.title}</h5>
-                <p className="mt-1 text-gray-400 text-sm">{item.desc}</p>
+                <h5 className=" font-work mt-3 text-lg font-semibold ">
+                  {item.title}
+                </h5>
+                <p className=" font-work mt-1 text-gray-400 text-sm">
+                  {item.desc}
+                </p>
               </div>
             </div>
           ))}
