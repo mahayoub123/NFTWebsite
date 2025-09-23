@@ -1,25 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import ContactPage from "./pages/ContactPage";
-import AboutPage from "./pages/AboutPage";
 import CreateAccountPage from "./pages/CreateAccountPage";
 import ArtistPage from "./pages/ArtistPage";
 import NFTPage from "./pages/NFTPage";
 import MarketPlace from "./pages/MarketPlace";
+import RankingsPage from "./pages/RankingsPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
-  },
-
-  {
-    path: "/contact",
-    element: <ContactPage />,
-  },
-  {
-    path: "/about",
-    element: <AboutPage />,
   },
   {
     path: "/account",
@@ -36,5 +26,9 @@ export const router = createBrowserRouter([
   {
     path: "/market",
     element: <MarketPlace />,
+  },
+  {
+    path: "/ranking",
+    element: <RankingsPage />,
   },
 ]);

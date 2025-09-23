@@ -8,6 +8,7 @@ import workSlice from "../slices/workSlice";
 import artistSlice from "../slices/artistSlice";
 import cardSlice from "../slices/cardSlice";
 import marketSlice from "../slices/marketSlice";
+import rankingSlice from "../slices/rankingSlice";
 
 export const store = configureStore({
   reducer: {
@@ -20,6 +21,7 @@ export const store = configureStore({
     artist: artistSlice,
     nftcard: cardSlice,
     marketplace: marketSlice,
+    ranking: rankingSlice,
   },
 });
 
