@@ -59,25 +59,25 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-[#1A1A1A] text-gray-300 flex flex-col items-center space-y-4 py-4 md:hidden z-10">
           <a
-            href="#"
+            href="/market"
             className="hover:text-white"
             onClick={() => setIsOpen(false)}
           >
             Marketplace
           </a>
           <a
-            href="#"
+            href="/ranking"
             className="hover:text-white"
             onClick={() => setIsOpen(false)}
           >
             Rankings
           </a>
           <a
-            href="#"
+            href="/"
             className="hover:text-white"
             onClick={() => setIsOpen(false)}
           >
-            Connect a wallet
+            Home
           </a>
           <button
             onClick={handleSignUp}

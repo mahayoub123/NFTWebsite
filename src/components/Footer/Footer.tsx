@@ -45,18 +45,18 @@ const Footer: React.FC = () => {
           <h3 className="font-bold text-lg mb-3">Explore</h3>
           <ul className="space-y-2 text-gray-300 text-sm">
             <li>
-              <a href="#" className="hover:underline">
+              <a href="/market" className="hover:underline">
                 Marketplace
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="/ranking" className="hover:underline">
                 Rankings
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
-                Connect a wallet
+              <a href="/" className="hover:underline">
+                Home
               </a>
             </li>
           </ul>
