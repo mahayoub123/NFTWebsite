@@ -84,7 +84,9 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-6xl mx-auto mt-8 border-t border-gray-600 pt-4 text-center text-gray-400 text-xs">
-        © NFT Market. Use this template freely.
+        <p>
+          © Debeloped by Front End Developer: Mahmoud Ayoub. All Rights Reserved
+        </p>
       </div>
     </footer>
   );
